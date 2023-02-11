@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+    
+       
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/4.jpg);
+    
+	background-size: cover;
+	background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+span{ /** Logo **/
+	color: #f238a7;
+    font-size: 35px;
+	
+	
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f238a7;
+	transition: .4s;
+}
+.btn{
+	background-color: #f238a7;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{/** TEXTO SOBRE NOS**/
+	position: absolute;
+	top: 23%;
+	left:38%;
+	margin-top: auto;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-fill-color: #f238a7;
+    
+}
+
+
+h4{
+	color: #f238a7;
+	letter-spacing: 2px;
+	font-size: 60px;
+    
+}
+
+h6{
+    color: #ffffff;
+	letter-spacing: 1px;
+	font-size: 30px;
+
+    
+}
+
+.explica{/** TEXTO EXPLICA**/
+	position: absolute;
+	
+	left:5%;    
+	
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+   
+    background-color: rgba(216, 212, 212, 0.734); 
+    border-radius: 35px;
+    padding: 2%;
+    right: 5%;
+    top: 40%;
+	text-shadow: rgb(0, 0, 0) 2px 2px;
+
+    
+
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+    
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+    
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+    
+}
+.about-text p{
+	color: #e8ecee;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+    
+}
+button{
+	background-color:#FF8C00;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #FF8C00;
+	cursor: pointer;
+}
+
+h9{
+	
+    margin-right: 10%;
+    margin-left: 51%;
+    margin-top: 8%;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
